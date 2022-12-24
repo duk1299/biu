@@ -1,16 +1,5 @@
 /*
 CaiYunWeather App unlock
-
-
-===========QuantumultX===========
-[rewrite_local]
-^https:\/\/biz\.caiyunapp\.com\/v2\/user.+ url script-response-body https://raw.githubusercontent.com/zwf234/rules/master/js/caiyun.js
-
-
-[MITM]
-biz.caiyunapp.com
-
-===========QuantumultX===========
 */
 
 var obj = JSON.parse($response.body); 
