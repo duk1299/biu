@@ -4,8 +4,7 @@ oh
 
 var obj = JSON.parse($response.body); 
 
-obj.status = 0
-obj.resultbody = {}
+obj.resultbody = {"userStatus":10}
 
 $done({body:JSON.stringify(obj)});
 // 
