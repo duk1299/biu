@@ -1,0 +1,3 @@
+HOST, img*.zhaopin.cn, REJECT
+HOST, ask-image.zhaopin.cn, REJECT
+HOST, ask.zhaopin.cn, REJECT
