@@ -4,8 +4,8 @@ oh
 
 var obj = JSON.parse($response.body); 
 
-obj.resultbody.data = {}
-obj.resultbody.apis = []
+obj.data = {}
+obj.apis = []
 
 $done({body:JSON.stringify(obj)});
 // 
