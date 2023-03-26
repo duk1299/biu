@@ -1,7 +1,7 @@
 var obj = JSON.parse($response.body);
 
 let newData = [];
-let oriData = obj.data;
+let oriData = obj["data"];
 
 for (let item of oriData) {
   if (item["iconType"] === "ROBOT" || item["iconType"] === "MINE") {
@@ -9,6 +9,6 @@ for (let item of oriData) {
   }
 }
 
-obj.data = newData;
+obj["data"] = newData;
 
 $done({body:JSON.stringify(obj)});
